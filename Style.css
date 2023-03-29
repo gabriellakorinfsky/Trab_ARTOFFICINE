@@ -5,6 +5,7 @@ body{
     background-image: url(IMG/5fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Montserrat';
 }
 
 @font-face {
@@ -20,14 +21,13 @@ body{
 .logo{
     display: flex;
     align-items: center;
-    margin-left: 25px;
+    margin-left: 20px;
     margin-top: 25px;
 }
 
 h2{
     color: rgba(98, 204, 187, 1);
     margin-left: 2px;
-    font-family: 'Montserrat';
 }
 
 img{
@@ -45,16 +45,80 @@ img{
     color: white;
     padding: 4px;
     text-decoration: none;
-    font-family: 'Montserrat';
     font-size: 25px;
 
 }
 
 .texto{
     color: white;
-    font-size: 98px;
+    font-size: 80px;
     padding: 1px;
     text-align: center;
     margin-top: 6%;
 
+}
+
+
+@media screen {
+    @media (max-width: 860px){
+        .logo{
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+
+        h2{
+            font-size: 15px;
+        }
+        
+        img{
+            height: 50px;
+            width: 50px;
+        }
+
+        .redirecionamento{
+            margin-right: 5px;
+            margin-top: 7px;
+        }
+        .redirecionamento a{
+            font-size: 12px;
+        
+        }
+
+        .texto{
+            font-size: 40px;
+            margin-top: 42%;
+        }
+    }
+    
+    @media (max-width: 1600px){
+        @media(min-width: 1024){
+            .logo{
+                margin-left: 10px;
+                margin-top: 15px;
+            }
+            
+            h2{
+                margin-left: 2px;
+                font-size: 20px;
+            }
+            
+            img{
+                height: 65px;
+                width: 65px;
+            }
+
+            .redirecionamento{
+                margin-top: 10px;
+            }
+            
+            .redirecionamento a{
+                font-size: 20px;
+            }
+
+            .texto{
+                font-size: 55px;
+            }
+
+        }
+    }   
 }

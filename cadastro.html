@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <title>Home</title>
+    <title>ARTOFFICINE - Cadastro</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-
+    <link rel="icon" href="IMG/logo.png">
     <link rel="stylesheet" href="StyleCadastro.css" />
   </head>
   <body>
@@ -27,12 +27,15 @@
         </div>
 
         <div class="formulario">
-            <input type="text" name="" id="data" placeholder="Data de Nascimento (dd/mm/aa)"/>
+            <input type="text" placeholder="Data de Nascimento" name="" onfocus="(this.type='date')" onblur="(this.type='text')"id="data" />
             <p id="alerta-data"></p>
         </div>
 
         <div class="formulario">
-            <input type="text" name="" id="cpf" placeholder="CPF"/>
+            <input type="text" name="cpf\ 
+            pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}"\
+            title="Digite o CPF neste formato: xxx.xxx.xxx-xx" 
+            id="cpf" placeholder="CPF"/>
             <p id="alerta-cpf"></p>
         </div>
 
@@ -42,10 +45,10 @@
         </div>
 
         <div class="formulario">
-            <input type="text" id="senha" placeholder="Senha" />
+            <input type="password" id="senha" placeholder="Senha" />
             <p id="alerta-senha"></p>
 
-            <input type="text" name="" id="confirmar" placeholder="Confirmar" />
+            <input type="password" name="" id="confirmar" placeholder="Confirmar" />
             <p id="alerta-confirmar"></p>
         </div>
         
