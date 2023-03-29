@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="StyleCadastro.css" />
+  </head>
+  <body>
+    
+    <div class="logo">
+        <img src="IMG/logo.png" title="logo">
+        <h2>ARTOFFICINE</h2> 
+    </div>
+
+    <div class="cadastro">
+
+        <h1>Cadastre-se</h1>
+        <div class="formulario">
+
+            <input type="text" name="" id="nome" placeholder="Nome"/>
+            <p id="alerta-nome"></p>
+
+            <input type="text" name="" id="sobrenome" placeholder="Sobrenome"/>
+            <p id="alerta-sobrenome"></p>
+        </div>
+
+        <div class="formulario">
+            <input type="text" name="" id="data" placeholder="Data de Nascimento (dd/mm/aa)"/>
+            <p id="alerta-data"></p>
+        </div>
+
+        <div class="formulario">
+            <input type="text" name="" id="cpf" placeholder="CPF"/>
+            <p id="alerta-cpf"></p>
+        </div>
+
+        <div class="formulario">
+            <input type="text" name="" id="email" placeholder="E-mail"/>
+            <p id="alerta-email"></p>
+        </div>
+
+        <div class="formulario">
+            <input type="text" id="senha" placeholder="Senha" />
+            <p id="alerta-senha"></p>
+
+            <input type="text" name="" id="confirmar" placeholder="Confirmar" />
+            <p id="alerta-confirmar"></p>
+        </div>
+        
+        <div class="bot">
+            <button onclick="cadastrar()" id="cadastrar">Criar conta</button>
+        </div>
+    </div>
+    <script src="ScriptCadastro.js"></script>
+  </body>
+</html>

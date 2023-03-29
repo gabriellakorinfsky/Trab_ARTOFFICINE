@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-VariableFont_wght.ttf') format(truetype);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+  }
+  body{
+    box-sizing:border-box;
+    height: 100vh;
+    background-color: rgba(80, 96, 93, 1);
+    background-image: url(IMG/5fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+h2{
+    color: rgba(98, 204, 187, 1);
+    margin-left: 2px;
+}
+
+img{
+    height: 80px;
+    width: 80px;
+}
+
+h1{
+    color:white;
+    margin-top: 25px;
+    padding: 30px;
+    font-size: 65px;
+    letter-spacing: 13%;
+}
+.login {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    
+    justify-content: center;
+    position: absolute;
+    width: 65%;
+    height: auto;
+    margin-left:16%;
+    top: 165px;
+    align-content: center;
+
+    background: linear-gradient(140.11deg, rgba(255, 255, 255, 0.4) 9.43%, rgba(255, 255, 255, 0.1) 80.81%);
+    box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+  }
+
+  .formulario {
+    display: flex;
+    margin-top: 10px; 
+    margin-left:10px;
+    margin-right:5px;
+    padding: 3px;  
+    width: 50%;  
+    gap:10px;
+  }
+
+
+
+.formulario input{
+    background: #F4F4F4;
+    padding-left: 40px;
+    font-weight: bold;
+    
+    mix-blend-mode: overlay;
+    opacity: 0.5;
+    border-radius: 40px;
+    width: 100%;
+    height: 60px;
+
+    border: none;
+
+  }
+
+.bot button{
+    width: 100%;
+    height: 60px;
+
+    background: rgba(244, 244, 244, 0.738);
+    border: none;
+    color:rgba(68, 145, 133, 0.75);
+    
+    mix-blend-mode: overlay;
+    opacity:0.9;
+    border-radius: 40px;
+    font-weight: bold;
+    
+}
+
+.bot{
+    display: flex;
+    padding: 30px;
+    margin-bottom: 25px;
+    width: 40%;
+    height: 200px;
+ 
+}
