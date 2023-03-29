@@ -75,7 +75,6 @@ h1{
     margin-right:auto;
     padding: 3px;  
     width: 50%;  
-    gap:10px;
   }
 
 
@@ -122,7 +121,65 @@ h1{
 }
 
 @media screen {
+  @media (max-width: 860px){
+    .logo{
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    
+    h2{
+        font-size: 15px;
+    }
+    
+    img{
+        height: 50px;
+        width: 50px;
+    }
+
+    h1{
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-size: 30px;
+      font-weight: 500;
+    }
+
+    .cadastro{
+      
+      top: 100px;
+      width: 96%;
+      margin-left:7px;
+    }
+  
+    .formulario {
+        display: block;
+        margin-top: 0px;  
+        width: 65%;  
+        margin-left: 0px;
+      }
+
+    .formulario input{
+        padding-left: 30px;
+        font-weight: 500;
+        font-size: medium;
+
+        height: 50px;
+      }
+    
+    .bot button{
+        margin-left: 8%;
+        width: 400px;
+        height: 45px;
+        font-size: medium;
+    }
+    
+    .bot{
+        margin-bottom: 10px;
+    
+  }
+  }
+
   @media (max-width: 1600px){
+    @media(min-width: 1024px){
       .logo{
           margin-left: 10px;
           margin-top: 15px;
@@ -172,6 +229,7 @@ h1{
           margin-bottom: 4px;
        
       }
+    }
   }
   
 }

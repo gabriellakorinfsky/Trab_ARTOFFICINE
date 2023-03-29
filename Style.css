@@ -91,7 +91,7 @@ img{
     }
     
     @media (max-width: 1600px){
-        @media(min-width: 1024){
+        @media(min-width: 1024px){
             .logo{
                 margin-left: 10px;
                 margin-top: 15px;
