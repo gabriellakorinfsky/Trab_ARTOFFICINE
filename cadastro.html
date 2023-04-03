@@ -8,52 +8,57 @@
     <link rel="stylesheet" href="StyleCadastro.css" />
   </head>
   <body>
-    
-    <div class="logo">
-        <img src="IMG/logo.png" title="logo">
-        <h2>ARTOFFICINE</h2> 
-    </div>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="IMG/logo.png" title="logo">
+                <h2>ARTOFFICINE</h2> 
+            </div>
+        </header>
+        <div class="cadastro">
 
-    <div class="cadastro">
+            <h1>Cadastre-se</h1>
+            <form action="#">
+                <div class="formulario">
 
-        <h1>Cadastre-se</h1>
-        <div class="formulario">
+                    <input type="text" name="" id="nome" placeholder="Nome"/>
+                    <p id="alerta-nome"></p>
 
-            <input type="text" name="" id="nome" placeholder="Nome"/>
-            <p id="alerta-nome"></p>
+                    <input type="text" name="" id="sobrenome" placeholder="Sobrenome"/>
+                    <p id="alerta-sobrenome"></p>
+                </div>
 
-            <input type="text" name="" id="sobrenome" placeholder="Sobrenome"/>
-            <p id="alerta-sobrenome"></p>
-        </div>
+                <div class="formulario">
+                    <input type="text" placeholder="Data de Nascimento" name="" onfocus="(this.type='date')" onblur="(this.type='text')"id="data" />
+                    <p id="alerta-data"></p>
+                </div>
 
-        <div class="formulario">
-            <input type="text" placeholder="Data de Nascimento" name="" onfocus="(this.type='date')" onblur="(this.type='text')"id="data" />
-            <p id="alerta-data"></p>
-        </div>
+                <div class="formulario">
+                    <input type="text" name="cpf\ 
+                    pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}"\
+                    title="Digite o CPF neste formato: xxx.xxx.xxx-xx" 
+                    id="cpf" placeholder="CPF"/>
+                    <p id="alerta-cpf"></p>
+                </div>
 
-        <div class="formulario">
-            <input type="text" name="cpf\ 
-            pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}"\
-            title="Digite o CPF neste formato: xxx.xxx.xxx-xx" 
-            id="cpf" placeholder="CPF"/>
-            <p id="alerta-cpf"></p>
-        </div>
+                <div class="formulario">
+                    <input type="text" name="" id="email" placeholder="E-mail"/>
+                    <p id="alerta-email"></p>
+                </div>
 
-        <div class="formulario">
-            <input type="text" name="" id="email" placeholder="E-mail"/>
-            <p id="alerta-email"></p>
-        </div>
+                <div class="formulario">
+                    <input type="password" id="senha" placeholder="Senha" />
+                    <p id="alerta-senha"></p>
 
-        <div class="formulario">
-            <input type="password" id="senha" placeholder="Senha" />
-            <p id="alerta-senha"></p>
+                    <input type="password" name="" id="confirmar" placeholder="Confirmar" />
+                    <p id="alerta-confirmar"></p>
+                </div>
+            
+                <div class="bot">
+                    <button onclick="cadastrar()" id="cadastrar">Criar conta</button>
+                </div> 
+            </form>
 
-            <input type="password" name="" id="confirmar" placeholder="Confirmar" />
-            <p id="alerta-confirmar"></p>
-        </div>
-        
-        <div class="bot">
-            <button onclick="cadastrar()" id="cadastrar">Criar conta</button>
         </div>
     </div>
     <script src="ScriptCadastro.js"></script>

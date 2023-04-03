@@ -13,25 +13,28 @@
         <img src="IMG/logo.png" title="logo">
         <h2>ARTOFFICINE</h2> 
     </div>
-
+    
     <div class="login">
 
-        <h1>Bem-Vindo <br> de volta!</h1>
+      <h1>Bem-Vindo <br> de volta!</h1>
+        <form action="#">
+          <div class="formulario">
+              <input type="email" name="" id="email" required/>
+              <label id="lab_email">E-mail</label>
+              <p id="alerta-email"></p>
+          </div>
 
-        <div class="formulario">
-            <input type="email" name="" id="email" placeholder="E-mail"/>
-            <p id="alerta-email"></p>
-        </div>
-
-        <div class="formulario">
-            <input type="password" id="senha" placeholder="Senha" />
-            <p id="alerta-senha"></p>
-        </div>
+          <div class="formulario">
+              <input type="password" id="senha" required />
+              <label id="lab_senha">Senha</label>
+              <p id="alerta-senha"></p>
+          </div>
         
-        <div class="bot">
-            <button onclick="logar()" id="logar">Log in</button>
-        </div>
+          <div class="bot">
+              <button onclick="logar()" id="logar">Log in</button>
+          </div>
+        </form>
     </div>
-    <script src="ScriptCadastro.js"></script>
+    <script src="ScriptLogin.js"></script>
   </body>
 </html>
