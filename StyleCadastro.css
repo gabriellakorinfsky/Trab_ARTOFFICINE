@@ -13,8 +13,20 @@ body{
   box-sizing:border-box;
   height: 100vh;
   background-color: rgba(80, 96, 93, 1);
-  background-image: url(IMG/5fundo.png);
+  /*background-image: url(IMG/5fundo.png);
   background-repeat: no-repeat;
+  background-size: cover;*/
+}
+
+#background{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
   background-size: cover;
 }
 
@@ -23,6 +35,12 @@ body{
   align-items: center;
   margin-left: 20px;
   margin-top: 25px;
+}
+
+.logo a{
+  display: flex;
+  align-items: center;
+  text-decoration:none;
 }
 
 h2{
