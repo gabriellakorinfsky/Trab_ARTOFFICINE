@@ -189,7 +189,7 @@ h1{
             display: block;
             top: 12%;
             width: 98%;
-            margin-left:4px;
+            margin-left: 4px;
           }
         
         .formulario {
@@ -240,11 +240,12 @@ h1{
         }
     }
 
+
     @media (max-width: 1600px){
         @media(min-width: 1024px){
             .logo{
-                margin-left: 10px;
-                margin-top: 15px;
+                margin-left: 20px;
+                margin-top: 20px;
             }
             
             h2{
@@ -264,11 +265,13 @@ h1{
             }
 
             .login {
-                top: 100px;
+                top: 20%;
+                margin-left: center;
             }
 
             .formulario { 
-                width: 55%;  
+                width: 55%; 
+                margin-top: 30px; 
             }
 
             .formulario input{
@@ -278,27 +281,28 @@ h1{
 
             
             .formulario #lab_email{
-                top: 48%;
-                pointer-events: none;
-                transform: translateY(-1%);
+                top: 41.2%;
+
             }
         
             .formulario #lab_senha{
-                top: 64.5%;
-                pointer-events: none;
-                transform: translateY(-1%);
+                top: 56.4%;
+
             }
 
             .bot button{
-                margin-left: 30%;
+                
                 width: 55%;
                 height: 52px;
+                margin-top: 30px;
+                
             }
             
             .bot{
                 width: 40%;
                 height: 50px;
-                margin-left: 25%;
+                margin-left: 17%;
+                margin-bottom: 10%;
             
             }
         } 

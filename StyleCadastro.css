@@ -57,6 +57,7 @@ h1{
   color:white;
   margin-top: 25px;
   padding: 30px;
+  text-align: center;
   font-weight: 600;
   font-size: 65px;
   letter-spacing: 6px;
@@ -68,13 +69,11 @@ h1{
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 20px;
   
-  justify-content: center;
   position: absolute;
   width: 70%;
   height: auto;
   margin-left:15%;
-  top: 165px;
-  align-content: center;
+  top: 15%;
 
   background: rgba(170, 167, 167, 0.226);
   box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.733);
@@ -88,11 +87,11 @@ p {
 
 .formulario {
   display: flex;
-  margin-top: 10px; 
+  margin-top: 18px; 
   margin-left:auto;
   margin-right:auto;
   padding: 3px;  
-  width: 50%;  
+  width: 699px;  
 }
 
 
@@ -100,7 +99,6 @@ p {
 .formulario input{
   background: #F4F4F4;
   padding-left: 40px;
-  padding-right: 40px;
   font-weight: 700;
   
   mix-blend-mode: overlay;
@@ -115,13 +113,69 @@ p {
 
 .formulario label{
   position: absolute;
-  top:51%;
+  color: white;
+  font-size: 20px;
+  margin-left: 50px;
+  transition: .5s;
+  } 
+
+  .formulario #lab_nome{
+    top: 28%;
+    pointer-events: none;
+    transform: translateY(-1%);
+}
+
+.formulario #lab_user{
+    top: 39.6%;
+    pointer-events: none;
+    transform: translateY(-1%);
+}
+
+.formulario #lab_data{
+  top: 39.6%;
+  left: 50%;
+  pointer-events: none;
+  transform: translateY(-1%);
+}
+
+.formulario #lab_cpf{
+  top: 51.2%;
+  pointer-events: none;
+  transform: translateY(-1%);
+}
+
+  .formulario #lab_email{
+      top: 62.5%;
+      pointer-events: none;
+      transform: translateY(-1%);
+  }
+
+  .formulario #lab_senha{
+      top: 73.9%;
+      pointer-events: none;
+      transform: translateY(-1%);
+  }
+
+.formulario input:focus~label,
+.formulario input:valid~label,
+.formulario input:focus~#lab_senha,
+.formulario input:valid~#lab_senha,
+.formulario input:focus~#lab_email,
+.formulario input:valid~#lab_email{
+  font-size: 17px;
+  margin-top:-40px;
+}
+
+.bot{
+  display: flex;
+  padding: 30px;
+  margin-bottom: 25px;
+  margin-left: 29%;
+  width: 50%;
 
 }
 
-
 .bot button{
-  margin-left: 21%;
   width: 60%;
   height: 60px;
 
@@ -136,56 +190,90 @@ p {
   
 }
 
-.bot{
-  display: flex;
-  padding: 30px;
-  margin-bottom: 25px;
-  width: 40%;
 
-}
 
 @media screen {
 @media (max-width: 860px){
   .logo{
-    margin-left: 10px;
-    margin-top: 10px;
-  }
-  
-  h2{
-      font-size: 15px;
-  }
-  
-  img{
-      height: 50px;
-      width: 50px;
-  }
+    margin-left: 20px;
+    margin-top: 20px;
+}
 
-  h1{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-size: 30px;
+h2{
+    font-size: 15px;
+}
+
+img{
+    height: 35px;
+    width: 35px;
+}
+
+h1{
+    margin-top: 20px;
+    font-size: 40px;
     font-weight: 500;
+}
+.cadastro {
+    display: block;
+    top: 12%;
+    width: 98%;
+    margin-left: 4px;
+  }
+.formulario {
+   display: grid;
+    margin-top: 10px;  
+    margin-left: 4%;
+    width: 80%;
+    margin-bottom: -10px;  
   }
 
-  .cadastro{
-    
-    top: 100px;
-    width: 96%;
-    margin-left:7px;
-  }
+  .formulario label{
+    margin-left: 25px;
+    font-size: 16px;
+    } 
 
-  .formulario {
-      display: block;
-      margin-top: 0px;  
-      width: 65%;  
-      margin-left: 0px;
+    .formulario #lab_nome{
+      top: 21.8%;
+  }
+  
+  .formulario #lab_user{
+      top: 33%;
+  }
+  
+  .formulario #lab_data{
+    top: 43.6%;
+    left: 18px;
+  }
+  
+  .formulario #lab_cpf{
+    top: 54.7%;
+  }
+  
+    .formulario #lab_email{
+        top: 66%;
+    }
+  
+    .formulario #lab_senha{
+        top: 77%;
     }
 
+    .formulario input:focus~label,
+        .formulario input:valid~label,
+        .formulario input:focus~#lab_senha,
+        .formulario input:valid~#lab_senha,
+        .formulario input:focus~#lab_email,
+        .formulario input:valid~#lab_email{
+            font-size: 14px;
+        }
+  input #username{
+    padding-bottom: 100px;
+  }
   .formulario input{
-      padding-left: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
       font-weight: 500;
       font-size: medium;
-
+      margin-left: 0;
       height: 50px;
     }
   
