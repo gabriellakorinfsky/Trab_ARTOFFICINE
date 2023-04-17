@@ -22,23 +22,21 @@
         <div class="cadastro">
 
             <h1>Cadastre-se</h1>
-            <form action="#">
+
                 <div class="formulario">
                     
                     <input type="text" name="" id="nome" required/>
                     <label id="lab_nome">Nome completo</label>
-                    <p id="alerta-nome"></p>
+                    
                 </div> 
            
                 <div class="formulario">
                     <input type="text" name="" id="username" 
                     title="Nome usado pelo usuario, o qual irá aparecer para todos" required/>
                     <label id="lab_user">Username</label>
-                    <p id="alerta-username"></p>
                 
                     <input type="text" required name="" onfocus="(this.type='date')" onblur="(this.type='text')"id="dataN" />
                     <label id="lab_data">Data de Nascimento</label>
-                    <p id="alerta-data"></p>
                 </div>
                
 
@@ -48,25 +46,27 @@
                     title="Digite o CPF neste formato: xxx.xxx.xxx-xx" 
                     id="cpf" required/>
                     <label id="lab_cpf">CPF</label>
-                    <p id="alerta-cpf"></p>
                 </div>
 
                 <div class="formulario">
                     <input type="text" name="" id="email" required/>
                     <label id="lab_email">Email</label>
-                    <p id="alerta-email"></p>
                 </div>
 
                 <div class="formulario">
                     <input type="password" id="senha" required />
                     <label id="lab_senha">Senha</label>
-                    <p id="alerta-senha"></p>
                 </div>
-            
+                <div class="formulario">
+                    <p id="erro-message1"></p>
+                    <p id="erro-message2"></p>
+                    <p id="erro-message3"></p>
+                    <p id="erro-message4"></p>
+                    <p id="erro-message5"></p>
+                </div>
                 <div class="bot">
                     <button onclick="cadastrar()" id="cadastrar">Criar conta</button>
                 </div> 
-            </form>
 
         </div>
     </div>

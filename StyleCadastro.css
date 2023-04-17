@@ -11,11 +11,12 @@
 }
 body{
   box-sizing:border-box;
+  margin: auto;
   height: 100vh;
   background-color: rgba(80, 96, 93, 1);
-  /*background-image: url(IMG/5fundo.png);
+  background-image: url(IMG/5fundo.png);
   background-repeat: no-repeat;
-  background-size: cover;*/
+  background-size: cover;
 }
 
 #background{
@@ -178,7 +179,6 @@ p {
 .bot button{
   width: 60%;
   height: 60px;
-
   background: rgba(244, 244, 244, 0.738);
   border: none;
   color:rgba(68, 145, 133, 0.75);
@@ -191,6 +191,12 @@ p {
 }
 
 
+.formulario p{
+
+  color: #ff3860;
+  font-size: 14px;
+
+}
 
 @media screen {
   
