@@ -121,38 +121,38 @@ p {
   } 
 
   .formulario #lab_nome{
-    top: 28%;
+    top: 26%;
     pointer-events: none;
     transform: translateY(-1%);
 }
 
 .formulario #lab_user{
-    top: 39.6%;
+    top: 37%;
     pointer-events: none;
     transform: translateY(-1%);
 }
 
 .formulario #lab_data{
-  top: 39.6%;
+  top: 37%;
   left: 50%;
   pointer-events: none;
   transform: translateY(-1%);
 }
 
 .formulario #lab_cpf{
-  top: 51.2%;
+  top: 48%;
   pointer-events: none;
   transform: translateY(-1%);
 }
 
   .formulario #lab_email{
-      top: 62.5%;
+      top: 58.6%;
       pointer-events: none;
       transform: translateY(-1%);
   }
 
   .formulario #lab_senha{
-      top: 73.9%;
+      top: 69.3%;
       pointer-events: none;
       transform: translateY(-1%);
   }
