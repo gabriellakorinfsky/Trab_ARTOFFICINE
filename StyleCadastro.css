@@ -171,13 +171,13 @@ p {
   display: flex;
   padding: 30px;
   margin-bottom: 25px;
-  margin-left: 29%;
+  margin-left: 25%;
   width: 50%;
 
 }
 
 .bot button{
-  width: 60%;
+  width: 50%;
   height: 60px;
   background: rgba(244, 244, 244, 0.738);
   border: none;
@@ -228,40 +228,44 @@ p {
     }
   .formulario {
     display: grid;
-      margin-top: 10px;  
+      margin-top: 30px;  
       margin-left: 4%;
       width: 80%;
       margin-bottom: -10px;  
     }
+    .formulario #username{
+      margin-bottom: 30px;
+    }
 
     .formulario label{
+      
       margin-left: 25px;
       font-size: 16px;
       } 
 
       .formulario #lab_nome{
-        top: 21.8%;
+        top: 21.9%;
     }
     
     .formulario #lab_user{
-        top: 33%;
+        top: 31.1%;
     }
     
     .formulario #lab_data{
-      top: 43.6%;
+      top: 41%;
       left: 18px;
     }
     
     .formulario #lab_cpf{
-      top: 54.7%;
+      top: 50.2%;
     }
     
       .formulario #lab_email{
-          top: 66%;
+          top: 59.9%;
       }
     
       .formulario #lab_senha{
-          top: 77%;
+          top: 69%;
       }
 
       .formulario input:focus~label,
@@ -272,9 +276,7 @@ p {
           .formulario input:valid~#lab_email{
               font-size: 14px;
           }
-    input #username{
-      padding-bottom: 100px;
-    }
+    
     .formulario input{
         padding-left: 20px;
         padding-right: 20px;
@@ -285,8 +287,8 @@ p {
       }
     
     .bot button{
-        margin-left: 8%;
-        width: 400px;
+        margin-top: -100px;
+        width: 90%;
         height: 45px;
         font-size: medium;
     }
@@ -336,33 +338,33 @@ p {
       }
 
       .formulario #lab_nome{
-        top: 28%;
+        top: 26%;
     }
     
     .formulario #lab_user{
-        top: 40%;
+        top: 37%;
     }
     
     .formulario #lab_data{
-      top: 40%;
+      top: 37%;
       left: 50%;
     }
     
     .formulario #lab_cpf{
-      top: 52.5%;
+      top: 48.5%;
     }
     
       .formulario #lab_email{
-          top: 64.5%;
+          top: 59.9%;
       }
     
       .formulario #lab_senha{
-          top: 77%;
+          top: 71.2%;
       }
     
     .bot button{
-        margin-left: 8%;
-        width: 400px;
+        margin-left: 2%;
+        width: 55%;
         height: 45px;
         font-size: medium;
     }
