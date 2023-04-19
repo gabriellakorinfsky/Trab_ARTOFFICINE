@@ -1,0 +1,254 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-VariableFont_wght.ttf') format(truetype);
+}
+* {
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    box-sizing:border-box;
+    height: 100vh;
+    background-color: #50605D;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-bottom: 10px;
+    /*background: rgba(170, 167, 167, 0.226);*/
+    background:linear-gradient(140.11deg, rgba(255, 255, 255, 0.4) 9.43%, rgba(255, 255, 255, 0.1) 80.81%);
+    
+    box-shadow: 0px 4px 24px -1px #00000033;
+
+    backdrop-filter: blur(20px);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 1px solid;
+
+    border-image-source: linear-gradient(134.74deg, #c0c0c0 12.49%, rgba(199, 245, 234, 0.5) 37.16%, rgba(128, 247, 204, 0.5) 66.17%, rgba(96, 248, 193, 0.5) 89.56%);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+h2{
+    color: rgba(98, 204, 187, 1);
+    margin-left: 2px;
+    font-size: 21px;
+}
+
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+
+.redirecionamento{
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top:10px;
+}
+
+.redirecionamento img{
+    margin-right: 60px;
+    padding: 4px;
+    text-decoration: none;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+
+}
+.menu{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.subitem{
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    transition: height .2s;
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.subitem a{
+    transition: text-decoration 0.2s, transform 0.2s;
+    color: white;
+    text-decoration: none;
+}
+.subitem a:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+.menu:hover .subitem{
+    margin-left: -10px;
+    height: 80px; 
+    width: 80px;
+    border-radius: 30px;
+    background:linear-gradient(140.11deg, rgba(255, 255, 255, 0.4) 9.43%, rgba(255, 255, 255, 0.1) 80.81%);
+     
+}
+.menu img::selection{
+    background: black;
+    color:white;
+}
+
+.bodi{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#carrossel{
+    border-radius: 40px;
+    margin-left: 200px;
+    width: 1700px;
+    height: 650px;
+    overflow: hidden;
+    display: flex; 
+    
+}
+.imgContainer{
+    transition: transform 1s;
+}
+.imgContainer img{
+    width: 1700px;
+    height: 650px;
+    object-fit: cover;
+}
+
+.imagens{
+    display: grid;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-bottom: -30px;
+}
+.posts img{
+    border-radius: 30px;
+    padding: 5px;
+}
+#large img{
+    width: 600px;
+    height: 262px;
+}
+#small img{
+    width: 323px;
+    height: 262px;
+}
+#big img{
+    width: 400px;
+    height: 540px;
+}
+.img_small_li1{
+    display:flex;
+}
+.imagens{
+    display: flex;
+}
+
+
+.posts img{
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+  }
+  .posts img:hover {
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+  }
+
+@media screen {
+    @media (max-width: 861px){
+        #carrossel{
+            border-radius: 40px;
+            margin-left: 1px;
+            width: 350px;
+            height: 200px;
+            overflow: hidden;
+            display: flex; 
+            
+        }
+        .imgContainer img{
+            width: 350px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .imagens{
+            display: block;
+            margin-left: 1px;
+        }
+        #large img{
+            width: 350px;
+            height: 200px;
+        }
+        #small img{
+            width: 350px;
+            height: 200px;
+        }
+        #big img{
+            width: 350px;
+            height: 280px;
+        }
+        .img_small_li1{
+            display:block;
+        }
+        
+    }
+    @media (max-width: 1600px){
+        @media(min-width: 1024px){
+            #carrossel{
+                border-radius: 40px;
+                margin-left: 75px;
+                width: 1300px;
+                height: 550px;
+                overflow: hidden;
+                display: flex; 
+                
+            }
+            .imgContainer img{
+                width: 1300px;
+                height: 550px;
+                object-fit: cover;
+            }
+            .imagens{
+                display: grid;
+                margin-top: 30px;
+                margin-left: 75px;
+                margin-bottom: -30px;
+            }
+            .posts img{
+                border-radius: 30px;
+                padding: 5px;
+            }
+            #large img{
+                width: 500px;
+                height: 262px;
+            }
+            #small img{
+                width: 233px;
+                height: 262px;
+            }
+            #big img{
+                width: 300px;
+                height: 540px;
+            }
+            .img_small_li1{
+                display:flex;
+            }
+            .imagens{
+                display: flex;
+            }
+        }
+    }
+}

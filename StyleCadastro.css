@@ -121,38 +121,38 @@ p {
   } 
 
   .formulario #lab_nome{
-    top: 26%;
+    top: 25.2%;
     pointer-events: none;
     transform: translateY(-1%);
 }
 
 .formulario #lab_user{
-    top: 37%;
+    top: 35.6%;
     pointer-events: none;
     transform: translateY(-1%);
 }
 
 .formulario #lab_data{
-  top: 37%;
+  top: 35.6%;
   left: 50%;
   pointer-events: none;
   transform: translateY(-1%);
 }
 
 .formulario #lab_cpf{
-  top: 48%;
+  top: 46%;
   pointer-events: none;
   transform: translateY(-1%);
 }
 
   .formulario #lab_email{
-      top: 58.6%;
+      top: 56.2%;
       pointer-events: none;
       transform: translateY(-1%);
   }
 
   .formulario #lab_senha{
-      top: 69.3%;
+      top: 66.8%;
       pointer-events: none;
       transform: translateY(-1%);
   }
@@ -192,11 +192,12 @@ p {
 
 
 .formulario p{
-
+  padding: 15px;
   color: #ff3860;
   font-size: 14px;
 
 }
+
 
 @media screen {
   
@@ -244,28 +245,28 @@ p {
       } 
 
       .formulario #lab_nome{
-        top: 21.9%;
+        top: 18.5%;
     }
     
     .formulario #lab_user{
-        top: 31.1%;
+        top: 26.5%;
     }
     
     .formulario #lab_data{
-      top: 41%;
+      top: 34.7%;
       left: 18px;
     }
     
     .formulario #lab_cpf{
-      top: 50.2%;
+      top: 42.6%;
     }
     
       .formulario #lab_email{
-          top: 59.9%;
+          top: 50.5%;
       }
     
       .formulario #lab_senha{
-          top: 69%;
+          top: 58.4%;
       }
 
       .formulario input:focus~label,
@@ -338,28 +339,28 @@ p {
       }
 
       .formulario #lab_nome{
-        top: 26%;
+        top: 25%;
     }
     
     .formulario #lab_user{
-        top: 37%;
+        top: 36%;
     }
     
     .formulario #lab_data{
-      top: 37%;
+      top: 36%;
       left: 50%;
     }
     
     .formulario #lab_cpf{
-      top: 48.5%;
+      top: 46.8%;
     }
     
       .formulario #lab_email{
-          top: 59.9%;
+          top: 57.5%;
       }
     
       .formulario #lab_senha{
-          top: 71.2%;
+          top: 68.5%;
       }
     
     .bot button{
